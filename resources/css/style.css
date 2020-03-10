@@ -1,13 +1,25 @@
 body { 
-    background-color: peachpuff
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: pink;
 }
 
 h1 {
     font-size: 100px;
-    color: white;
+    color: peachpuff;
 
 }
 
+h2{
+    font-size: 60px;
+    color: powderblue;
+
+}
+
+h3{ font-size: 50px;
+}
+
 p {
-    color: gray;
+    color: papayawhip;
 }
