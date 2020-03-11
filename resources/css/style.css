@@ -4,22 +4,27 @@
 
 body { 
     background-color: #bc673e;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     color: #fff6ee;
 }
 
+img {
+    max-width: 100%;
+}
 /*-------------------------------- HEADINGS AND TYPE */
 
 h1 {
     font-size: 100px;
     color: #fff6ee;
 
+
 }
 
 h2{
     font-size: 60px;
     color: #552010;
+    font-family: 'La Belle Aurore', cursive;
 
 }
 
@@ -32,6 +37,13 @@ p {
 
 /*-------------------------------- LAYOUTS */
 
+.content {
+   
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 /*-------------------------------- HEADER */
 
 /*-------------------------------- NAVIGATION */
