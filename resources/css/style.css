@@ -1,25 +1,41 @@
+/*-------------------------------- VARIABLES */
+
+/*-------------------------------- GLOBAL DEFULTS */
+
 body { 
-    background-color: #f1f1f1;
+    background-color: #bc673e;
     font-family: Arial, Helvetica, sans-serif;
 
-    color: pink;
+    color: #fff6ee;
 }
+
+/*-------------------------------- HEADINGS AND TYPE */
 
 h1 {
     font-size: 100px;
-    color: peachpuff;
+    color: #fff6ee;
 
 }
 
 h2{
     font-size: 60px;
-    color: powderblue;
+    color: #552010;
 
 }
 
-h3{ font-size: 50px;
+h3{ font-size: 30px;
 }
 
 p {
-    color: papayawhip;
+    color: #fff6ee;
 }
+
+/*-------------------------------- LAYOUTS */
+
+/*-------------------------------- HEADER */
+
+/*-------------------------------- NAVIGATION */
+
+/*-------------------------------- FOOTER */
+
+/*-------------------------------- MODULES */
