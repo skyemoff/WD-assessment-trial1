@@ -11,6 +11,9 @@ body {
     font-size: 20px;
 
     line-height: 1.4;
+
+
+    box-sizing: border-box;
 }
 
 img {
@@ -19,13 +22,13 @@ img {
 /*-------------------------------- HEADINGS AND TYPE */
 
 h1 {
-    font-size: 75px;
+    font-size: 60px;
     color: #d19272;
 
 }
 
 h2{
-    font-size: 63px;
+    font-size: 47px;
     color: #552010;
     font-family: 'La Belle Aurore', cursive;
 
@@ -34,11 +37,19 @@ h2{
 h3{ font-size: 30px;
 }
 
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
 
 
 p {
     color: #bc673e;
     font-weight: 300;
+    font-size: 18px;
 
 }
 
@@ -58,6 +69,26 @@ p {
 header {
     background-color: #bc673e;
 
+    margin-bottom: 50px;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+ /* the header will be half as thick once I can combine the name and menu on the same line. But ive set the padding and margins to how I want them.*/   
+
+}
+
+header h2 {
+    margin-top: 0px;
+
+    font-size: 60px;
+    
+}
+
+header p {
+    color: #fff6ee;
+    font-weight: 300;
+    font-size: 26px;
 
 }
 /*-------------------------------- NAVIGATION */
@@ -66,5 +97,19 @@ header {
 footer {
     background-color: #bc673e;
 
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    margin-top: 80px;
+
+
+}
+
+footer p {
+    font-weight: 400;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff6ee
 }
 /*-------------------------------- MODULES */
