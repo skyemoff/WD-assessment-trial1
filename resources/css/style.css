@@ -70,25 +70,41 @@ header {
     background-color: #bc673e;
 
     margin-bottom: 50px;
+    
 
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 65px;
 
- /* FOR SAM: the header will be half as thick once I can combine the name and menu on the same line. But ive set the padding and margins to how I want them.*/   
 
 }
+
+ header h2, p {display: inline-block;}
 
 header h2 {
     margin-top: 0px;
 
     font-size: 60px;
+
+    position: relative;
+    right: 50px;
+    padding: 0;
+    margin: 0;
+    float: left;
     
 }
+/* FOR SAM: not sure how to get the text to align. Setting up basic layout, not sure how to work text so the design is how i want it.
+
+
+How do I stop it from making all the H2 and p text align and justt align in the header? --- FIXED THIS*/
 
 header p {
     color: #fff6ee;
     font-weight: 300;
     font-size: 26px;
+
+    padding: 0;
+    margin: 0;
+    text-align: right;
 
 }
 /*-------------------------------- NAVIGATION */
@@ -102,7 +118,10 @@ footer {
 
     margin-top: 80px;
 
+}
 
+footer p, h5 {
+    display: inline-block;
 }
 
 footer p {
@@ -110,6 +129,22 @@ footer p {
 
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #fff6ee
+    color: #fff6ee;
+
+    padding: 0;
+    margin: 0;
+    text-align: left;
+
 }
+
+footer h5 {
+    position: relative;
+    left: 50px;
+    padding: 0;
+    margin: 0;
+    color: #fff6ee;
+    float: right;
+
+}
+/* FOR SAM: trying to get the layout right, hoping to switch the word 'instagram' for an icon and change the blue on the email link*/
 /*-------------------------------- MODULES */
