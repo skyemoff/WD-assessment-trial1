@@ -291,3 +291,18 @@ footer p {
     font-size: 30px;
     text-align: center;
   }
+
+  /*-------------------------------- IMAGE GALLERY */
+
+  .gallery {
+
+
+  }
+
+  .gallery-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+  }
+
+  @media screen and (max-width: 800px)
