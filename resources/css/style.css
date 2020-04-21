@@ -341,9 +341,8 @@ footer p {
     position: relative;
 }
 
-.hero-module img,
- {
-    width: 100%;
+.hero-moduleimg {
+     width: 100%;
 }
 
 .hero-module .heading-main {
@@ -376,5 +375,5 @@ footer p {
        color: var(--link-colour);
        text-shadow: 0px 1px 1px var(--alternate-bg-color);
        text-align: center;
-       font-size: 60px;
+       font-size: 60px; }
    } 
